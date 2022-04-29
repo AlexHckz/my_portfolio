@@ -69,3 +69,15 @@
     -webkit-transform-origin: 3% 0;
     transform-origin: -1% 0%;
 }
+
+
+/* separateur technologies */
+#slit {
+  position: absolute;
+}
+#slitPath1 {
+  fill: #f6f0f0;
+}
+#slitPath2, #slitPath3 {
+  fill: #f6f0f045;
+}
