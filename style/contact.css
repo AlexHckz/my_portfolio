@@ -1,0 +1,40 @@
+.contact_main {
+    justify-content: center;
+}
+.confirmation_main {
+    margin: 10rem 0;
+}
+form {
+    margin: 0rem 3rem 5rem 3rem;
+}
+.form-check-input {
+    margin-top: 0.95em;
+}
+label {
+    padding: 0.8rem 0;
+}
+.contact_wrapper_technos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 2rem 0;
+}
+.contact_wrapper_technos .technos{
+    width: 36px;
+    height: auto;
+    margin: 1rem;
+}
+.heart {
+    margin-left: 0.3rem;
+}
+#contact h1 {
+    color: #000;
+}
+#contact h2 {
+    margin-bottom: 3rem;
+}
+#contact .btn {
+    margin-top : 2em;
+}
