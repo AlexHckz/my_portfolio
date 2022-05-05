@@ -25,7 +25,7 @@ main {
 }
 main ul {
     list-style-image: url("../src/fontawesome-free-6.1.1-desktop/svgs/solid/check.svg");
-    list-style-position: outside;
+    /* list-style-position: outside; */
 }
 main ul li {
     padding-left: 1em;
@@ -43,6 +43,36 @@ aside p {
     line-height: 3em;
     font-size: 18px;
 }
+h1 {
+    color: white;
+}
+h2 {
+    position: relative;
+    margin: 0;
+    margin-bottom: 4rem;
+    margin-top: 3rem;
+}
+h2::before{
+    content: "";
+  display: block;
+  width: 120px;
+  height: 2px;
+  background: #000;
+  left: 0;
+  top: 50%;
+  position: absolute;
+}
+h3 {
+    font-size: 1em;
+}
+hr {
+    margin: 3em;
+}
+
+b, strong {
+    font-weight: 600;
+}
+
 
 .home_wrapper_technos {
     display: flex;
@@ -59,9 +89,6 @@ aside p {
     width: 24px;
     margin-left: 0.3rem;
 }
-b, strong {
-    font-weight: 600;
-}
 
 /* main section */
 
@@ -75,9 +102,12 @@ article {
     flex-grow: 1;
     align-items: center;
     justify-content: space-evenly;
-    margin: 5rem 0;
-    padding: 0 3rem;
+    margin: 5rem 3rem;
 }
+/* article-right-wrapper, article-left-wrapper {
+    margin-left: 2rem;
+    margin-right: 2rem; 
+} */
 
 .article-bottom-wrapper > * {
     flex: 50%;
@@ -88,20 +118,8 @@ article {
     height: auto;
     
 }
-h1 {
-    color: white;
-}
-h2 {
-    margin: 0;
-    margin-bottom: 4rem;
-    margin-top: 3rem;
-}
-h3 {
-    font-size: 1em;
-}
-hr {
-    margin: 3em;
-}
+
+
 
 .grey_background {
     background-color: #F9F9F9;
@@ -146,13 +164,17 @@ hr {
 
 #experience {
     background-color: #F9F9F9;
-    padding-bottom: 100px;
 }
 #formation {
     position: relative;
     background-color: #f6f0f0;
 }
-
+.padding-bottom2 {
+    padding-bottom: 2rem;
+}
+.padding-top2 {
+    padding-top: 2rem;
+}
 .color2 {
     fill: #F9F9F9;
 }
