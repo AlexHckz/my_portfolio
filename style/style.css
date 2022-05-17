@@ -147,6 +147,9 @@ article {
     text-align: center;
     font-family: Montserrat;
 }
+.title_contact::before {
+    display: none;
+}
 
 /* boostrap overides */
 .btn {
